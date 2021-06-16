@@ -12,17 +12,124 @@ body {
   text-align: center;
 }
 
-body .continer {
+body .container {
   max-width: 1660px;
+  margin: 10px auto;
 }
 
-.sec01 {
-  background-image: url(../images/main.png);
+body .container p {
+  font-size: 12px;
 }
 
-.sec01 .giji::after {
-  font-weight: 400;
-  content: "\f164";
-  font-family: "Font Awesome 5 Free";
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav img {
+  width: 50px;
+}
+
+header nav i {
+  font-size: 50px;
+}
+
+.sec02 {
+  background-color: whitesmoke;
+  padding: 10px 0;
+}
+
+.sec02 h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.sec02 .main_content {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+.sec02 .main_content .dropdown {
+  margin: 5px 0;
+}
+
+.sec02 .main_content .dropdown #dropdown1 {
+  width: 100%;
+}
+
+.sec02 .main_content #switchBtn {
+  margin: 5px 0;
+}
+
+.sec02 .main_content nav {
+  padding-top: 15px;
+}
+
+.sec02 .main_content .contentsList {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.sec02 .main_content .contentsList .content {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec02 .main_content .contentsList .content i {
+  font-size: 20px;
+  color: lightgray;
+}
+
+.sec02 .main_content .contentsList .content + .content {
+  border-top: 1px solid lightgray;
+}
+
+footer {
+  background-color: #444444;
+  color: white;
+}
+
+footer .container {
+  margin: 0;
+  padding: 30px 50px;
+}
+
+footer .container .footer_contList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .footer_cont {
+  padding-bottom: 10px;
+  width: 45%;
+}
+
+footer .container .footer_cont h2 {
+  font-size: 20px;
+}
+
+footer .container .footer_cont p {
+  font-size: 12px;
 }
 /*# sourceMappingURL=stylesheet.css.map */
